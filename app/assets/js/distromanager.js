@@ -537,8 +537,8 @@ exports.pullRemote = function(){
         return exports.pullLocal()
     }
     return new Promise((resolve, reject) => {
-        const distroURL = 'http://spacefrontier.livehost.fr/SpaceFrontier/SpaceFrontier.json'
-        //const distroURL = 'http://spacefrontier.livehost.fr/SpaceFrontier/SpaceFrontier.json'
+        const distroURL = 'http://spacefrontier.livehost.fr/SpaceFrontierV3.json'
+        //const distroURL = 'http://spacefrontier.livehost.fr/SpaceFrontierV3.json'
         const opts = {
             url: distroURL,
             timeout: 2500
